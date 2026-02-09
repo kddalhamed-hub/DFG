@@ -1,0 +1,20 @@
+* { box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+body { background-color: #e5ddd5; margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; }
+.container { width: 100%; max-width: 500px; padding: 20px; }
+.hidden { display: none !important; }
+
+/* شاشة الدخول */
+.card { background: white; padding: 30px; border-radius: 15px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+input { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 8px; }
+button { background: #25d366; color: white; border: none; padding: 12px 25px; border-radius: 8px; cursor: pointer; font-weight: bold; }
+
+/* واجهة الدردشة */
+.chat-box { background: #fff; height: 80vh; display: flex; flex-direction: column; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 20px rgba(0,0,0,0.2); }
+.chat-header { background: #075e54; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center; }
+.messages-area { flex: 1; padding: 15px; overflow-y: auto; background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png'); }
+.msg { margin-bottom: 10px; padding: 10px; border-radius: 8px; max-width: 80%; word-wrap: break-word; }
+.user-msg { background: #dcf8c6; align-self: flex-start; margin-right: auto; }
+.bot-msg { background: #fff; align-self: flex-end; }
+.input-area { padding: 15px; display: flex; background: #f0f0f0; }
+.input-area input { flex: 1; margin: 0 10px 0 0; }
+.logout-btn { background: #ff4b4b; font-size: 12px; padding: 5px 10px; }
